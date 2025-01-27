@@ -1,3 +1,10 @@
+  function scrollToContactForm() {
+    // Scroll smoothly to the contact section
+    document.getElementById("contact").scrollIntoView({
+      behavior: "smooth"
+    });
+  }
+
 // htmlcss progress circular bar 
 let htmlProgress = document.querySelector(".html-css"),
   htmlValue = document.querySelector(".html-progress");
